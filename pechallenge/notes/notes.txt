@@ -1,0 +1,34 @@
+create another Module
+
+create in a profile module
+  new class nginx
+
+
+file {
+
+}
+
+file resource = source "http://""
+
+
+puppet archive
+puppet wget
+
+create github repo
+  put modules in repo
+    roles :: profiles
+  site.pp
+
+
+roles web
+  nginx
+
+profile
+  contain "puppet resources" like what is in the pechallenge.pp
+
+  use the "source" option to make sure it is serving the latest index.html
+
+roles
+class {
+  roles::web
+}
