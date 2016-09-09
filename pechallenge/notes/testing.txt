@@ -1,0 +1,11 @@
+roles - remove spec folder
+
+copy fixtures over to roles to .fixtures
+
+bundle install --without integration
+
+bundle exec rake spec
+
+rake -T
+
+retrospec puppet
